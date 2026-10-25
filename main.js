@@ -1,5 +1,6 @@
 let greeting = document.getElementById(`greeting`);
-let constGreeting = document.getElementById(`greeting`).innerText;
+const constGreeting = document.getElementById(`greeting`).innerText;
+
 
 function getName(firstName, lastName)
 {
