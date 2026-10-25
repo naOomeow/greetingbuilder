@@ -6,7 +6,7 @@ function getName(firstName, lastName)
     return `${firstName} ${lastName}`
 }
 
-console.log(getName(`Haider`, `Javaid`));
+console.log(getName(`Nao`, `Meow`));
 
 function timeOfDay(time) {
     time = time.toLowerCase();
@@ -24,5 +24,12 @@ function timeOfDay(time) {
     }
 
 }
-
 console.log(timeOfDay(`morning`));
+
+
+function getGreet(time, firstName, lastName)
+{
+    return `${timeOfDay(time)} ${getName(firstName, lastName)}`;
+}
+
+console.log(getGreet(`evening`, `Nao`, `Meow`))
