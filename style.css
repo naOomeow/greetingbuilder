@@ -2,8 +2,21 @@ body {
   background: #03033a;
 }
 
+#div1 {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 #greeting {
+  display: flex;
+  align-items: center;
   font-size: 6em;
   color: azure;
   font-family: fantasy;
+  transform: translateX(-50%);
 }

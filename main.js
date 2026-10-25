@@ -28,8 +28,9 @@ console.log(timeOfDay(`morning`));
 
 
 function getGreet(time, firstName, lastName)
-{
+{    
     return `${timeOfDay(time)} ${getName(firstName, lastName)}`;
 }
 
+greeting.innerText = getGreet(`evening`, `Nao`, `Meow`) ;
 console.log(getGreet(`evening`, `Nao`, `Meow`))
