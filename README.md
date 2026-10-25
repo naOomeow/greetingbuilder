@@ -1,6 +1,7 @@
 # greetingbuilder
 
 roadmap.sh greeting builder project
+https://roadmap.sh/projects/js-greeting-builder
 
 first i will lay out the plan according to roadmap.sh
 
