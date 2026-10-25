@@ -1,0 +1,9 @@
+body {
+  background: #03033a;
+}
+
+#greeting {
+  font-size: 6em;
+  color: azure;
+  font-family: fantasy;
+}
